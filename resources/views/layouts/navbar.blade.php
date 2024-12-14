@@ -17,7 +17,7 @@
     <nav id="navbar" class="navbar">
         <div class="logo">
             <img src="{{ asset('assets/images/healthcare.png') }}" alt="Healthcare Logo">
-            <a href="/dashboard">Healthcare</a>
+            <a href="/dashboard">Diatensi Care</a>
         </div>
         <div class="avatar">
             <p id="username" style="cursor: pointer;"><span>{{ Auth::user()->name }}</span></p>

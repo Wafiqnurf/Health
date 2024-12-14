@@ -18,8 +18,6 @@ class User extends Authenticatable
         return $this->hasMany(Catatan::class);
     }
 
-    use HasApiTokens, HasFactory, Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *

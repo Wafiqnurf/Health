@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSRF TOKEN -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Daftar - Healthcare</title>
+    <title>Daftar - Diatensi Care</title>
     <style>
     body,
     html {
@@ -116,7 +116,7 @@
     <div class="container">
         <div class="logo">
             <img src="{{ asset('assets/images/healthcare.png') }}" alt="Healthcare Logo">
-            <h1>Healthcare</h1>
+            <h1>Diatensi Care</h1>
         </div>
         <form class="signup-form" method="POST" action="{{ route('register') }}">
             @csrf
